@@ -24,6 +24,12 @@ Our core beliefs:
 4. Open by default
 5. Ethically auditable
 
+Our members:
+
+* x
+* x
+* x
+
 ## What we do
 
 * Initiate  - we work with social organisations to understand their causes and the challenges they face
