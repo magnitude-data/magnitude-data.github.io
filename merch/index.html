@@ -1,4 +1,4 @@
-<div id='product-component-a64d569407b'></div>
+<div id='collection-component-659531a8827'></div>
 <script type="text/javascript">
 /*<![CDATA[*/
 
@@ -29,36 +29,32 @@
     });
 
     ShopifyBuy.UI.onReady(client).then(function (ui) {
-      ui.createComponent('product', {
-        id: [1547444453435],
-        node: document.getElementById('product-component-a64d569407b'),
+      ui.createComponent('collection', {
+        id: 68406050875,
+        node: document.getElementById('collection-component-659531a8827'),
         moneyFormat: '%24%7B%7Bamount%7D%7D',
         options: {
   "product": {
-    "buttonDestination": "checkout",
-    "layout": "horizontal",
+    "buttonDestination": "modal",
     "variantId": "all",
-    "width": "100%",
     "contents": {
-      "img": false,
-      "imgWithCarousel": true,
+      "imgWithCarousel": false,
       "variantTitle": false,
-      "description": true,
+      "options": false,
+      "description": false,
       "buttonWithQuantity": false,
       "quantity": false
     },
     "text": {
-      "button": "ORDER NOW"
+      "button": "VIEW PRODUCT"
     },
     "styles": {
       "product": {
         "@media (min-width: 601px)": {
-          "max-width": "100%",
-          "margin-left": "0",
-          "margin-bottom": "50px"
-        },
-        "carousel-button": {
-          "display": "block"
+          "max-width": "calc(50% - 40px)",
+          "margin-left": "40px",
+          "margin-bottom": "50px",
+          "width": "calc(50% - 40px)"
         }
       },
       "button": {
@@ -69,15 +65,6 @@
         ":focus": {
           "background-color": "#4d9cab"
         }
-      },
-      "title": {
-        "font-size": "26px"
-      },
-      "price": {
-        "font-size": "18px"
-      },
-      "compareAt": {
-        "font-size": "15px"
       }
     }
   },
@@ -145,7 +132,7 @@
     "styles": {
       "products": {
         "@media (min-width: 601px)": {
-          "margin-left": "-20px"
+          "margin-left": "-40px"
         }
       }
     }
